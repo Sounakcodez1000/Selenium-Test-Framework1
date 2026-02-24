@@ -1,0 +1,96 @@
+# ===============================
+# Ignore build and dependency files
+# ===============================
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ===============================
+# Ignore Maven-specific files
+# ===============================
+.mvn/
+dependency-reduced-pom.xml
+release.properties
+buildNumber.properties
+
+# ===============================
+# Ignore dependency caching
+# ===============================
+/.m2/
+
+# ===============================
+# Ignore IDE-specific files
+# ===============================
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Visual Studio (if accidentally used)
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ===============================
+# Ignore log and output files
+# ===============================
+*.log
+/logs/
+/log/
+*.out
+*.err
+
+# ===============================
+# Ignore TestNG and reports
+# ===============================
+/test-output/
+allure-results/
+allure-report/
+reports/
+ExtentReport/
+*.html
+
+# ===============================
+# Ignore screenshots
+# ===============================
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# ===============================
+# Ignore generated Selenium WebDriver files
+# ===============================
+chromedriver.log
+geckodriver.log
+selenium-server.log
+
+# ===============================
+# Ignore temporary files
+# ===============================
+*.tmp
+*.swp
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Ignore Node modules (if any JS tools used)
+# ===============================
+node_modules/
