@@ -12,6 +12,7 @@ import com.orangehrm.base.BaseClass;
 
 public class LoginPage {
 
+private int timeout = 10;
 	private ActionDriver actionDriver;
 	
 	private By userNameField=By.name("username");
@@ -49,4 +50,6 @@ public class LoginPage {
 		return actionDriver.compareText(errorMessage, expectedError);
 		
 	}
+
+	// Hey I added this new line
 }
